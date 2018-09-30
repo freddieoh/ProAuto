@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private let headerView = Constants.buildUIView()
+    private let kappaView = KappaView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,35 +22,17 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func setUp() {
-        self.view.addSubview(headerView)
+        self.view.addSubview(kappaView)
         setUpConstraints()
     }
     
     func setUpConstraints() {
 
-        headerView.translatesAutoresizingMaskIntoConstraints = false
-        headerView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
-        headerView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
-        headerView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
-        headerView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-    }
-}
-
-extension ViewController {
-    enum Constants {
-        
-        static func buildLabel() -> UILabel {
-            let label = UILabel()
-            label.text = "I'm a label"
-            label.textColor = .orange
-            return label
-        }
-        static func buildUIView() -> UIView {
-            let view = UIView()
-            view.backgroundColor = .red
-            
-            return view
-        }
+        kappaView.translatesAutoresizingMaskIntoConstraints = false
+        kappaView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
+        kappaView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
+        kappaView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
+        kappaView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
     }
 }
 

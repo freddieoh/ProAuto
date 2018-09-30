@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36D72C621607EB500B27BA2 /* KappaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D72C521607EB500B27BA2 /* KappaView.swift */; };
 		C3FB88B7215FEC7900EFA04C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB88B6215FEC7900EFA04C /* AppDelegate.swift */; };
 		C3FB88B9215FEC7B00EFA04C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB88B8215FEC7B00EFA04C /* ViewController.swift */; };
 		C3FB88BE215FEC9100EFA04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FB88BD215FEC9100EFA04C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C36D72C521607EB500B27BA2 /* KappaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaView.swift; sourceTree = "<group>"; };
 		C3FB88B3215FEC7900EFA04C /* ProAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FB88B6215FEC7900EFA04C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FB88B8215FEC7B00EFA04C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				C3FB88BD215FEC9100EFA04C /* Assets.xcassets */,
 				C3FB88BF215FEC9100EFA04C /* LaunchScreen.storyboard */,
 				C3FB88C2215FEC9200EFA04C /* Info.plist */,
+				C36D72C521607EB500B27BA2 /* KappaView.swift */,
 			);
 			path = ProAuto;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				C3FB88B9215FEC7B00EFA04C /* ViewController.swift in Sources */,
 				C3FB88B7215FEC7900EFA04C /* AppDelegate.swift in Sources */,
+				C36D72C621607EB500B27BA2 /* KappaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
